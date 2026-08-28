@@ -1,4 +1,3 @@
-import '../components/header.css';
 import './OrdersPage.css';
 import {Header} from "../components/Header.jsx";
 
