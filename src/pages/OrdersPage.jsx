@@ -58,7 +58,7 @@ export function OrdersPage() {
                             </div>
 
                             <div className="product-actions">
-                                <Link href="/tracking">
+                                <Link to="/tracking">
                                     <button className="track-package-button button-secondary">
                                         Track package
                                     </button>
@@ -86,7 +86,7 @@ export function OrdersPage() {
                             </div>
 
                             <div className="product-actions">
-                                <Link href="/tracking">
+                                <Link to="/tracking">
                                     <button className="track-package-button button-secondary">
                                         Track package
                                     </button>
@@ -137,7 +137,7 @@ export function OrdersPage() {
                             </div>
 
                             <div className="product-actions">
-                                <Link href="/tracking">
+                                <Link to="/tracking">
                                     <button className="track-package-button button-secondary">
                                         Track package
                                     </button>
