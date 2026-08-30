@@ -1,15 +1,16 @@
 import './HomePage.css';
+import {useEffect} from "react";
+import axios from 'axios';
 import {Header} from "../components/Header.jsx";
 import {products} from "../../starting-code/data/products";
 import Checkmark from "../assets/images/icons/checkmark.png"
 
 export function HomePage () {
-    fetch('http://localhost:3000/api/products')
+    axios.get('http://localhost:3000/api/products')
         .then((response) => {
-            return response.json();
-        }).then((data) => {
-        console.log(data)
-    })
+            console.log(response.data);
+        });
+
     return(
         <>
             <link rel="icon" type="image/svg+xml" href="/home-favicon.png" />
